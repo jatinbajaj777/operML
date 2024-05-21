@@ -10,7 +10,7 @@ logger.setLevel(logging.DEBUG)
 print('Loading Lambda function')
 
 runtime=boto3.Session().client('sagemaker-runtime')
-endpoint_Name='BradTestEndpoint'
+endpoint_Name='pytorch-inference-2024-05-21-08-52-26-693'
 
 def lambda_handler(event, context):
 
